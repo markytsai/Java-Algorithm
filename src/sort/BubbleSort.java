@@ -1,9 +1,14 @@
 package sort;
 
-public class BubbleSort<E> {
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Properties;
+import java.util.Stack;
 
+public class BubbleSort<T> {
 
     public static void main(String[] args) {
+
         int[] arr = {5, 2, 0, 2, 4, 4};
 
         bubbleSort(arr);
